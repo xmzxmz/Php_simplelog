@@ -1,0 +1,21 @@
+{
+  "name": "xmz/simplelog",
+  "description": "Simple Log - The simple class to manage log and file locations.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcin Zelek",
+      "email": "marcin.zelek@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "files": [
+      "simplelog/simplelog.inc"
+    ]
+  }
+}
