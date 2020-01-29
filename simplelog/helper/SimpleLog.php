@@ -25,7 +25,7 @@ use Exception;
 # Include(s)                                                                   #
 ################################################################################
 
-include 'simplelog/simplelog/helper/SimpleLogLevel.php';
+include_once "SimpleLogLevel.php";
 
 ################################################################################
 # Class(es)                                                                    #

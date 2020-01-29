@@ -25,8 +25,8 @@ define('SIMPLE_LOG_ROOT_PATH', dirname(__FILE__));
 # Include(s)                                                                   #
 ################################################################################
 
-include 'simplelog/simplelog/helper/SimpleLog.php';
-include 'simplelog/simplelog/helper/SimpleLogLocation.php';
+include SIMPLE_LOG_ROOT_PATH . '/helper/SimpleLog.php';
+include SIMPLE_LOG_ROOT_PATH . '/helper/SimpleLogLocation.php';
 
 ################################################################################
 # Function(s)                                                                  #
